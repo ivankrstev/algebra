@@ -120,13 +120,10 @@ Bijektivna linearna preslikava je **izomorfizem**.
 Naj bosta $V$ in $W$ vektorska prostora nad istim poljem $F$.
 
 Preslikava
-
 $$
 A:V\to W
 $$
-
 je **linearna**, če za vse $u,v\in V$ in vse $\alpha,\beta\in F$ velja
-
 $$
 A(\alpha u+\beta v)
 =
@@ -2052,8 +2049,7 @@ in iščeš preostalo razsežnost.
 
 1. Določi $\dim V$.
 2. Če je jedro podano z generatorji, najprej določi njihovo dejansko linearno neodvisnost.
-3. Uporabi
-   $$
+3. Uporabi   $$
    \dim V
    =
    \dim\ker A+
@@ -2065,17 +2061,13 @@ in iščeš preostalo razsežnost.
 ## Primer 1
 
 Naj bo
-
 $$
 A:\mathbb R_5[x]\to\mathbb R^5
 $$
-
 linearna preslikava z
-
 $$
 \dim\operatorname{Im}A=2.
 $$
-
 Kolikšna je dimenzija jedra?
 
 ### Rešitev
@@ -2227,19 +2219,15 @@ $$
 ## Dimenzijski nemogoči primeri
 
 Če
-
 $$
 \dim V>\dim W,
 $$
-
 injektivnost ni možna.
 
 Če
-
 $$
 \dim V<\dim W,
 $$
-
 surjektivnost ni možna.
 
 ---
@@ -2247,7 +2235,6 @@ surjektivnost ni možna.
 ## Primer
 
 Ali lahko obstaja injektivna linearna preslikava
-
 $$
 A:\mathbb R^4\to\mathbb R^3?
 $$

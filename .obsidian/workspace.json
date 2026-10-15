@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e85f4ade894aec68",
+        "id": "9a0dc7eb5eb6bef8",
         "type": "tabs",
         "children": [
           {
-            "id": "b6f75b44f314d9f5",
+            "id": "c38b106f2b055f9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faza 0.md",
-                "mode": "preview",
+                "file": "Faza 4.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Faza 0"
+              "title": "Faza 4"
             }
           }
         ]
@@ -188,18 +188,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "b6f75b44f314d9f5",
+  "active": "c38b106f2b055f9d",
   "lastOpenFiles": [
+    "Faza 1.md",
+    "Faza 4.md",
     "Faza 5.md",
-    "Faza 6.md",
-    "Faza 7.md",
+    "Faza 2.md",
+    "Faza 3.md",
     "Faza 8.md",
+    "Faza 7.md",
+    "Faza 6.md",
+    "Faza 0.pdf",
+    "Faza 1.pdf",
+    "Faza 2.pdf",
+    "Faza 3.pdf",
     "Faza 0.md",
     "Faza 9.md",
-    "Faza 2.md",
-    "Faza 1.md",
-    "Faza 3.md",
-    "Faza 4.md",
     "Untitled.md"
   ]
 }

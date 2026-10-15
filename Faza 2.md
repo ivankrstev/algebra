@@ -22,7 +22,6 @@ Po zaključku faze moraš znati:
 ## 1. Osnovna slika celotne faze
 
 Najpomembnejša povezava je:
-
 $$
 \boxed{
 \text{linearna kombinacija}
@@ -423,11 +422,9 @@ Naloga sprašuje:
 ### Postopek
 
 1. Zapiši
-
 $$
 v=\alpha_1v_1+\cdots+\alpha_kv_k.
 $$
-
 2. Primerjaj komponente oziroma koeficiente.
 3. Reši dobljeni sistem.
 4. Če sistem ima rešitev, linearni izraz obstaja.
@@ -742,14 +739,12 @@ $$
 ### Primer
 
 Naj bo
-
 $$
 U=
 \{A\in\mathbb R^{2\times2};A^T=-A\}.
 $$
 
 Splošna matrika je
-
 $$
 A=
 \begin{pmatrix}
@@ -759,7 +754,6 @@ c&d
 $$
 
 Pogoj $A^T=-A$ da
-
 $$
 a=d=0,\qquad c=-b.
 $$
@@ -776,7 +770,6 @@ b
 $$
 
 Torej
-
 $$
 \boxed{
 B_U=

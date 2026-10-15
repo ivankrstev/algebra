@@ -874,13 +874,11 @@ Iščeš bazo $U+W$.
 ### Postopek
 
 1. Združi vse generatorje:
-
 $$
 U+W
 =
 L\{u_1,\dots,u_r,w_1,\dots,w_s\}.
 $$
-
 2. Vektorje zapiši kot stolpce matrike.
 3. Z Gaussovo eliminacijo določi rang oziroma pivotne stolpce.
 4. Iz **izvirnih** generatorjev izberi pripadajoče linearno neodvisne vektorje.

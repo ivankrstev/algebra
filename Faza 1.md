@@ -121,29 +121,21 @@ $$
 ### Množenje s skalarjem
 
 5. **Distributivnost glede na seštevanje vektorjev**
-
 $$
 \alpha(u+v)=\alpha u+\alpha v
 $$
-
 6. **Distributivnost glede na seštevanje skalarjev**
-
 $$
 (\alpha+\beta)v=\alpha v+\beta v
 $$
-
 7. **Asociativnost množenja s skalarji**
-
 $$
 \alpha(\beta v)=(\alpha\beta)v
 $$
-
 8. **Nevtralni skalar**
-
 $$
 1v=v.
 $$
-
 ---
 
 ## 1.3 Posledice aksiomov
@@ -471,20 +463,20 @@ za $b\neq0$ praviloma ni podprostor, ker ničelni vektor običajno ni rešitev.
 
 # 6. Kako prepoznati tip pogoja
 
-| Pogoj | Tipično podprostor? | Kaj preveriti |
-|---|---:|---|
-| $x+y-z=0$ | da | homogen linearen pogoj |
-| $x+y-z=5$ | ne | $0$ ne pripada množici |
-| $x=2y$ | da | enako kot $x-2y=0$ |
-| $xy=0$ | ne | ni zaprtost za seštevanje |
-| $x^2+y^2=1$ | ne | $0$ ni v množici |
-| $x\geq0$ | ne | ni zaprto za negativne skalarje |
-| $|x|=|y|$ | običajno ne | unija več linearnih množic |
-| $A^T=A$ | da | linearen pogoj |
-| $A^T=-A$ | da | linearen pogoj |
-| $\det A=0$ | ne | singularne matrike niso zaprte za seštevanje |
-| $A=\lambda I$ | da | skalarne matrike |
-| $A^2=A$ | praviloma ne | nelinearen pogoj |
+| Pogoj         |       Tipično podprostor? | Kaj preveriti                                              |
+| ------------- | ------------------------: | ---------------------------------------------------------- |
+| $x+y-z=0$     |                        da | homogen linearen pogoj                                     |
+| $x+y-z=5$     |                        ne | $0$ ne pripada množici                                     |
+| $x=2y$        |                        da | enako kot $x-2y=0$                                         |
+| $xy=0$        |                        ne | ni zaprtost za seštevanje                                  |
+| $x^2+y^2=1$   |                        ne | $0$ ni v množici                                           |
+| $x\geq0$      |                        ne | ni zaprto za negativne skalarje                            |
+| $x=y$         |                        da | enako kot $x−y=0$, homogeno lineareno                      |
+| $A^T=A$       |                        da | linearen pogoj                                             |
+| $A^T=-A$      |                        da | linearen pogoj                                             |
+| $\det A=0$    |                        ne | singularne matrike niso zaprte za seštevanje               |
+| $A=\lambda I$ | da, če $\lambda$ poljubno | množica vseh skalarnih matrik $\{\lambda I:\lambda\in F\}$ |
+| $A^2=A$       |              praviloma ne | nelinearen pogoj                                           |
 
 ---
 
@@ -551,12 +543,7 @@ Komponente vektorja so linearno odvisne od parametrov.
 
 1. Ugotovi, v katerem znanem vektorskem prostoru leži $U$.
 2. Vzemi poljubna elementa $u,v\in U$.
-3. Izračunaj
-
-$$
-\alpha u+\beta v.
-$$
-
+3. Izračunaj $\alpha u+\beta v.$
 4. Pokaži, da rezultat ponovno dobi enako parametrično obliko.
 5. Za bazo izpostavi parametre.
 6. Preveri linearno neodvisnost generatorskih vektorjev.
@@ -567,7 +554,6 @@ $$
 ## Primer
 
 Naj bo
-
 $$
 U=
 \{(2z,w,z);z,w\in\mathbb C\}.
@@ -580,19 +566,14 @@ Dokaži, da je $U$ vektorski podprostor prostora $\mathbb C^3$, in določi $\dim
 ## Rešitev
 
 Naj bosta
-
 $$
 u=(2z_1,w_1,z_1)\in U
 $$
-
 in
-
 $$
 v=(2z_2,w_2,z_2)\in U.
 $$
-
 Za poljubna $\alpha,\beta\in\mathbb C$ dobimo
-
 $$
 \alpha u+\beta v
 =
@@ -602,7 +583,6 @@ $$
 $$
 
 Zapišemo:
-
 $$
 \alpha u+\beta v
 =
@@ -614,29 +594,21 @@ $$
 $$
 
 Ker sta
-
 $$
 \alpha z_1+\beta z_2\in\mathbb C
 $$
-
 in
-
 $$
 \alpha w_1+\beta w_2\in\mathbb C,
 $$
-
 je
-
 $$
 \alpha u+\beta v\in U.
 $$
-
 Torej
-
 $$
 U\leq\mathbb C^3.
 $$
-
 Nato:
 
 $$
@@ -646,24 +618,19 @@ z(2,0,1)+w(0,1,0).
 $$
 
 Zato
-
 $$
 U=
 L\{(2,0,1),(0,1,0)\}.
 $$
-
 Vektorja sta linearno neodvisna, zato tvorita bazo.
 
 Torej:
-
 $$
 \boxed{
 \dim_{\mathbb C}U=2
 }
 $$
-
 in ena od baz je
-
 $$
 \boxed{
 \{(2,0,1),(0,1,0)\}.
@@ -688,23 +655,18 @@ To je osrednji tip naloge 16 iz 4. vaj.
 ## Kako jo prepoznam
 
 Dobiš več množic, kot so:
-
 $$
 x_1-x_n=0,
 $$
-
 $$
 x_1-x_n=1,
 $$
-
 $$
 x_1x_n=0,
 $$
-
 $$
 x_1\geq0.
 $$
-
 Naloga preverja, ali znaš razlikovati med **linearnimi homogenimi** in drugimi pogoji.
 
 ---
@@ -723,22 +685,18 @@ Za vsako množico:
 ## Primer iz vaj
 
 Za $n\geq2$ obravnavamo:
-
 $$
 U_1=
 \{x\in\mathbb R^n;x_1-x_n=0\},
 $$
-
 $$
 U_2=
 \{x\in\mathbb R^n;x_1-x_n=1\},
 $$
-
 $$
 U_3=
 \{x\in\mathbb R^n;x_1x_n=0\},
 $$
-
 $$
 U_4=
 \left\{
@@ -746,7 +704,6 @@ x\in\mathbb R^n;
 \frac{x_1}{x_n}=0
 \right\},
 $$
-
 $$
 U_5=
 \{x\in\mathbb R^n;x_1\geq0\}.
@@ -757,31 +714,25 @@ $$
 ## Rešitev za $U_1$
 
 Pogoj
-
 $$
 x_1-x_n=0
 $$
-
 je homogen in linearen.
 
 Naj bosta $u,v\in U_1$. Tedaj
-
 $$
 u_1-u_n=0,
 $$
-
 $$
 v_1-v_n=0.
 $$
 
 Za $\alpha,\beta\in\mathbb R$:
-
 $$
 (\alpha u_1+\beta v_1)
 -
 (\alpha u_n+\beta v_n)
 $$
-
 $$
 =
 \alpha(u_1-u_n)
@@ -791,7 +742,6 @@ $$
 $$
 
 Torej
-
 $$
 \boxed{U_1\leq\mathbb R^n}.
 $$
@@ -801,19 +751,16 @@ $$
 ## Rešitev za $U_2$
 
 Za ničelni vektor velja
-
 $$
 0-0=0\neq1.
 $$
 
 Zato
-
 $$
 0\notin U_2.
 $$
 
 Torej
-
 $$
 \boxed{U_2\text{ ni podprostor}.}
 $$
@@ -823,59 +770,45 @@ $$
 ## Rešitev za $U_3$
 
 Pogoj
-
 $$
 x_1x_n=0
 $$
-
 je nelinearen.
 
 Vzemimo
-
 $$
 u=(1,0,\ldots,0)
 $$
-
 in
-
 $$
 v=(0,\ldots,0,1).
 $$
 
 Tedaj
-
 $$
 u_1u_n=0
 $$
-
 in
-
 $$
 v_1v_n=0,
 $$
-
 zato $u,v\in U_3$.
 
 Toda:
-
 $$
 u+v=(1,0,\ldots,0,1)
 $$
-
 in
-
 $$
 (u+v)_1(u+v)_n=1.
 $$
 
 Zato
-
 $$
 u+v\notin U_3.
 $$
 
 Torej
-
 $$
 \boxed{U_3\text{ ni podprostor}.}
 $$
